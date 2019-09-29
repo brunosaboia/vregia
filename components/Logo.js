@@ -1,5 +1,6 @@
 const Logo = () => (
   <svg
+    style={{ width: "100%" }}
     width="390"
     height="74"
     viewBox="0 0 390 74"

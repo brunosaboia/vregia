@@ -5,7 +5,6 @@ import { HeaderContent } from "../content/i18nContent";
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: "none" } : {}}>
-    <div className="avatar"></div>
     <div className="content">
       <div className="inner">
         <Logo />
