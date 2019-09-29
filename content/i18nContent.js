@@ -115,5 +115,3 @@ export const MainContent = {
     }
   }
 };
-
-export const FooterContent = {};
