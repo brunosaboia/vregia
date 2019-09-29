@@ -79,7 +79,7 @@ class IndexPage extends React.Component {
       >
         <div>
           <Head>
-            <title>Translator Based in Brazil | Vitória Régia</title>
+            <title>Translator | Portuguese teacher | Based in Brazil | Vitória Régia</title>
             <link
               href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i"
               rel="stylesheet"
