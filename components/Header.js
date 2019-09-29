@@ -1,57 +1,34 @@
+import Logo from "../components/Logo";
 import PropTypes from "prop-types";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import faGem from "@fortawesome/fontawesome-free-regular/faGem";
+
+import { HeaderContent } from "../content/i18nContent";
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: "none" } : {}}>
-    {/* <div className="logo"> */}
     <div className="avatar"></div>
-    {/* </div> */}
     <div className="content">
       <div className="inner">
-        <h1>Vitória Régia</h1>
-        <p>Translator | Portuguese Teacher</p>
-        <p>Based in Brazil</p>
+        <Logo />
+        <p>
+          {HeaderContent[props.currentLanguage].description.line1}
+          <br />
+          {HeaderContent[props.currentLanguage].description.line2}
+        </p>
       </div>
     </div>
     <nav>
       <ul>
-        {/* <li>
-          <a
-            onClick={() => {
-              props.onOpenArticle("intro");
-            }}
-          >
-            Intro
-          </a>
-        </li> */}
-        <li>
-          <a
-            onClick={() => {
-              props.onOpenArticle("work");
-            }}
-          >
-            My Work
-          </a>
-        </li>
-        <li>
-          <a
-            onClick={() => {
-              props.onOpenArticle("about");
-            }}
-          >
-            About Me
-          </a>
-        </li>
-        <li>
-          <a
-            onClick={() => {
-              props.onOpenArticle("contact");
-            }}
-          >
-            Contact
-          </a>
-        </li>
+        {HeaderContent[props.currentLanguage].nav.map(item => (
+          <li>
+            <a
+              onClick={() => {
+                props.onOpenArticle(item.pageName);
+              }}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   </header>
