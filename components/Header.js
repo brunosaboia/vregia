@@ -10,9 +10,8 @@ const Header = props => (
       <div className="inner">
         <Logo />
         <p>
-          {HeaderContent[props.currentLanguage].description.line1}
-          <br />
-          {HeaderContent[props.currentLanguage].description.line2}
+          <p>{HeaderContent[props.currentLanguage].description.line1}</p>
+          <p>{HeaderContent[props.currentLanguage].description.line2}</p>
         </p>
       </div>
     </div>
