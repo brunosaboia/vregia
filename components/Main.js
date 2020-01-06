@@ -1,9 +1,4 @@
 import PropTypes from "prop-types";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import faTwitter from "@fortawesome/fontawesome-free-brands/faTwitter";
-import faFacebook from "@fortawesome/fontawesome-free-brands/faFacebook";
-import faInstagram from "@fortawesome/fontawesome-free-brands/faInstagram";
-import faGithub from "@fortawesome/fontawesome-free-brands/faGithub";
 
 import { MainContent } from "../content/i18nContent";
 
@@ -72,19 +67,19 @@ class Main extends React.Component {
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">
-                {MainContent[this.props.currentLanguage].contact.legends[0]}
+                {MainContent[this.props.currentLanguage].contact.labels.name}
               </label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
               <label htmlFor="email">
-                {MainContent[this.props.currentLanguage].contact.legends[1]}
+                {MainContent[this.props.currentLanguage].contact.labels.email}
               </label>
               <input type="text" name="email" id="email" />
             </div>
             <div className="field">
               <label htmlFor="message">
-                {MainContent[this.props.currentLanguage].contact.legends[2]}
+                {MainContent[this.props.currentLanguage].contact.labels.message}
               </label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
@@ -93,7 +88,7 @@ class Main extends React.Component {
                 <input
                   type="submit"
                   value={
-                    MainContent[this.props.currentLanguage].contact.legends[3]
+                    MainContent[this.props.currentLanguage].contact.labels.send
                   }
                   className="special"
                 />
@@ -102,7 +97,7 @@ class Main extends React.Component {
                 <input
                   type="reset"
                   value={
-                    MainContent[this.props.currentLanguage].contact.legends[4]
+                    MainContent[this.props.currentLanguage].contact.labels.reset
                   }
                 />
               </li>
