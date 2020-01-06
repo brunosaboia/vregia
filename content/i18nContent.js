@@ -130,7 +130,7 @@ export const MainContent = {
       content: () => (
         <>
           <p>
-            Received a bachelor's degree in Letters and a MSc in Linguistics from
+            Received a degree in Literature and a MSc in Linguistics from
             &nbsp;
             <a href="http://ufc.br">Universidade Federal do Ceará</a>
             .
