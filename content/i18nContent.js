@@ -50,10 +50,18 @@ export const MainContent = {
                 </ul>
               </li>
               <li>
-                Aulas de Português Brasileiro para estrangeiros
+                Aulas Particulares de Português Brasileiro para estrangeiros
                 <ul>
-                  <li>Ministradas em Inglês/Francês</li>
+                  <li>Aulas personalizadas para cada aluno</li>
+                  <li>Aulas presenciais ou via internet</li>
                   <li>Foco na áerea empresarial</li>
+                </ul>
+              </li>
+              <li>
+                Testemunhos de ex-alunos (em inglês)
+                <ul>
+                <li>"Vitória me ajudou a melhorar meu português, partindo do nível iniciante até eu conseguir ter conversas básicas com os nativos. Ela é muito habilidosa e paciente, e moldou as aulas exatamente às minhas necessidades. Eu recomendo as aulas dela fortemente, não importando seu nível de português" &mdash; <a href="https://www.facebook.com/JPetrik93">Juraj Petrík</a>, Eslovaco, Engenheiro de Software</li>
+                <li>"As aulas de português com a Vitória foram muito úteis para minha estadia no Brasil. As aulas eram personalizadas, e o ritmo baseado no quão rápido podíamos ir. Ela tem habilidades excelentes como professora, e as aulas eram revigorantes e divertidas"</li> &mdash; <a href="https://www.facebook.com/IboWa">Ibrahim Yildirim</a>, Dinamarquês, Engenheiro de Software
                 </ul>
               </li>
             </ul>
@@ -113,11 +121,19 @@ export const MainContent = {
                 </ul>
               </li>
               <li>
-                Brazilian Portuguese classes to foreigners
+                Private Brazilian Portuguese classes to foreigners
                 <ul>
-                  <li>Classes are taught in English or French</li>
+                  <li>Custom-made classes for each student, according to his/her needs</li>
+                  <li>Remote or on-premises classes</li>
                   <li>Focused on corporate language</li>
                 </ul>
+              </li>
+              <li>
+               Testmonials from ex-students
+               <ul>
+                 <li>"Vitória helped me improve my Portuguese from near begginer to being able to hold basic converfastions with the locals. She was very skilled and patient and catered the lesson exactly to my needs. I highly recommend her lessons to anyone, no matter what your skill level is" &mdash; <a href="https://www.facebook.com/JPetrik93">Juraj Petrík</a>, Slovakian, Software Engineer</li>
+                 <li>"The Portuguese classes with Vitória were very helpful for my time in Brazil. The lessons were tailormade and the pace was based on how fast we could go. She has really good skills and the classes were soothing and fun" &mdash; <a href="https://www.facebook.com/IboWa">Ibrahim Yildirim</a>, Danish, Software Engineer</li>
+               </ul>
               </li>
             </ul>
           </p>
