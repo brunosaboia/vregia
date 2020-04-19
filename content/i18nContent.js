@@ -96,7 +96,7 @@ export const MainContent = {
     contact: {
       heading: "Contato",
       content:
-        "Precisa entrar em contato comigo? Preencha o formulário abaixo e retornarei assim que possível. Obrigada!",
+        "Precisa entrar em contato comigo? Basta enviar uma mensagem. Obrigada!",
       labels: {
         name: "Seu nome:",
         email: "Seu email:",
@@ -167,7 +167,7 @@ export const MainContent = {
     contact: {
       heading: "Contact",
       content:
-        "Need to contact me? Fill in the form below and I'll get back to you as soon as possible. Thank you!",
+        "Need to contact me? Send me a message I'll get back to you as soon as possible. Thank you!",
       labels: {
         name: "Your name:",
         email: "Your email:",
