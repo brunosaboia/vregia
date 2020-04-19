@@ -53,8 +53,8 @@ export const MainContent = {
                 Aulas Particulares de Português Brasileiro para estrangeiros
                 <ul>
                   <li>Aulas personalizadas para cada aluno</li>
-                  <li>Aulas presenciais ou via internet</li>
-                  <li>Foco na áerea empresarial</li>
+                  <li>Aulas presenciais ou online</li>
+                  <li>Foco na área empresarial</li>
                 </ul>
               </li>
               <li>
@@ -124,7 +124,7 @@ export const MainContent = {
                 Private Brazilian Portuguese classes to foreigners
                 <ul>
                   <li>Custom-made classes for each student, according to his/her needs</li>
-                  <li>Remote or on-premises classes</li>
+                  <li>Online or on-premises classes</li>
                   <li>Focused on corporate language</li>
                 </ul>
               </li>
