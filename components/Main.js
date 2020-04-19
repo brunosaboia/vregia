@@ -107,7 +107,7 @@ class Main extends React.Component {
                 />
               </li>
             </ul>
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="contact-form" />
           </form>
           {/* <ul className="icons">
             <li>
