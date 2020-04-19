@@ -64,7 +64,7 @@ class Main extends React.Component {
             {MainContent[this.props.currentLanguage].contact.heading}
           </h2>
           <p>{MainContent[this.props.currentLanguage].contact.content}</p>
-          <form name="contact-form" id="contact-form" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <form name="contact-form" id="contact-form" method="POST" data-netlify="true">
             <div className="field half first">
               <label htmlFor="name">
                 {MainContent[this.props.currentLanguage].contact.labels.name}
@@ -101,10 +101,8 @@ class Main extends React.Component {
                   }
                 />
               </li>
-              <li>
-               <div data-netlify-recaptcha="true"></div>
-              </li>
             </ul>
+            <input type="hidden" name="form-name" value="contact" />
           </form>
           {/* <ul className="icons">
             <li>
