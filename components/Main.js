@@ -64,7 +64,7 @@ class Main extends React.Component {
             {MainContent[this.props.currentLanguage].contact.heading}
           </h2>
           <p>{MainContent[this.props.currentLanguage].contact.content}</p>
-          <form name="contact-form" id="contact-form" method="post" data-netlify="true">
+          <form name="contact-form" id="contact-form" method="POST" data-netlify="true">
             <div className="field half first">
               <label htmlFor="name">
                 {MainContent[this.props.currentLanguage].contact.labels.name}
