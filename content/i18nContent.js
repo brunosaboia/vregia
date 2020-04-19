@@ -75,7 +75,7 @@ export const MainContent = {
       content: () => (
         <>
           <p>
-            Graduada em Letras-Português e mestra em Linguística pela
+            Sou graduada em Letras-Português e mestra em Linguística pela
             &nbsp;
             <a href="http://ufc.br">Universidade Federal do Ceará</a>
             .
@@ -146,7 +146,7 @@ export const MainContent = {
       content: () => (
         <>
           <p>
-            Received a degree in Literature and a MSc in Linguistics from
+            I received a degree in Literature and a MSc in Linguistics from
             &nbsp;
             <a href="http://ufc.br">Universidade Federal do Ceará</a>
             .
