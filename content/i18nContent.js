@@ -58,7 +58,7 @@ export const MainContent = {
                 </ul>
               </li>
               <li>
-                Depoimentos de ex-alunos(as)
+                Depoimentos de ex-alunos
                 <ul>
                 <li>"Vitória me ajudou a melhorar meu português, partindo do nível iniciante até eu conseguir ter conversas básicas com os nativos. Ela é muito habilidosa e paciente, e moldou as aulas exatamente às minhas necessidades. Eu recomendo as aulas dela fortemente, não importando seu nível de português" &mdash; <a href="https://www.facebook.com/JPetrik93">Juraj Petrík</a>, Eslovaco, Engenheiro de Software</li>
                 <li>"As aulas de português com a Vitória foram muito úteis para minha estadia no Brasil. As aulas eram personalizadas, e o ritmo baseado no quão rápido podíamos ir. Ela tem habilidades excelentes como professora, e as aulas eram revigorantes e divertidas"</li> &mdash; <a href="https://www.facebook.com/IboWa">Ibrahim Yildirim</a>, Dinamarquês, Engenheiro de Software
