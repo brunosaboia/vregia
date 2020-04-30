@@ -50,15 +50,15 @@ export const MainContent = {
                 </ul>
               </li>
               <li>
-                Aulas Particulares de Português Brasileiro para estrangeiros
+                Aulas Particulares de Português Brasileiro para estrangeiros(as)
                 <ul>
-                  <li>Aulas personalizadas para cada aluno</li>
+                  <li>Conteúdo personalizado de acordo com a necessidade de cada aluno(a)</li>
+                  <li>Ideal para trabalhadores e estudantes de intercâmbio</li>
                   <li>Aulas presenciais ou online</li>
-                  <li>Foco na área empresarial</li>
                 </ul>
               </li>
               <li>
-                Depoimentos de ex-alunos (em inglês)
+                Depoimentos de ex-alunos(as)
                 <ul>
                 <li>"Vitória me ajudou a melhorar meu português, partindo do nível iniciante até eu conseguir ter conversas básicas com os nativos. Ela é muito habilidosa e paciente, e moldou as aulas exatamente às minhas necessidades. Eu recomendo as aulas dela fortemente, não importando seu nível de português" &mdash; <a href="https://www.facebook.com/JPetrik93">Juraj Petrík</a>, Eslovaco, Engenheiro de Software</li>
                 <li>"As aulas de português com a Vitória foram muito úteis para minha estadia no Brasil. As aulas eram personalizadas, e o ritmo baseado no quão rápido podíamos ir. Ela tem habilidades excelentes como professora, e as aulas eram revigorantes e divertidas"</li> &mdash; <a href="https://www.facebook.com/IboWa">Ibrahim Yildirim</a>, Dinamarquês, Engenheiro de Software
@@ -123,9 +123,9 @@ export const MainContent = {
               <li>
                 Private Brazilian Portuguese classes to foreigners
                 <ul>
-                  <li>Custom-made classes for each student, according to his/her needs</li>
+                  <li>Custom-made content for each student, according to his/her needs</li>
+                  <li>Ideal for workers and exhange students</li>
                   <li>Online or on-premises classes</li>
-                  <li>Focused on corporate language</li>
                 </ul>
               </li>
               <li>
