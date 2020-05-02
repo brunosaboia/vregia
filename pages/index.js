@@ -8,6 +8,11 @@ import Footer from "../components/Footer";
 
 import { IndexPageContent } from "../content/i18nContent";
 
+import ReactGA from 'react-ga';
+
+const trackingId = "UA-91416150-4";
+ReactGA.initialize(trackingId);
+
 class IndexPage extends React.Component {
   constructor(props) {
     super(props);
