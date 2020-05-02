@@ -11,7 +11,6 @@ import { IndexPageContent } from "../content/i18nContent";
 import ReactGA from 'react-ga';
 
 const trackingId = "UA-91416150-4";
-ReactGA.initialize(trackingId);
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -84,6 +83,8 @@ class IndexPage extends React.Component {
     }, 350);
   }
   render() {
+    ReactGA.initialize(trackingId);
+
     return (
       <div
         className={`body ${this.state.loading} ${
