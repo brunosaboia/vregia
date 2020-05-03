@@ -8,9 +8,7 @@ import Footer from "../components/Footer";
 
 import { IndexPageContent } from "../content/i18nContent";
 
-import ReactGA from 'react-ga';
-
-const trackingId = "UA-91416150-4";
+const GA_TRACKING_ID = 'UA-91416150-4';
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -83,8 +81,6 @@ class IndexPage extends React.Component {
     }, 350);
   }
   render() {
-    ReactGA.initialize(trackingId);
-
     return (
       <div
         className={`body ${this.state.loading} ${
@@ -93,6 +89,21 @@ class IndexPage extends React.Component {
       >
         <div>
           <Head>
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', '${GA_TRACKING_ID}');
+          `,
+            }}
+          />
             <title>{IndexPageContent[this.state.currentLanguage].title}</title>
             <meta
               name="viewport"
