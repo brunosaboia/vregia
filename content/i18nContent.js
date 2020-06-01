@@ -150,7 +150,7 @@ export const MainContent = {
             &nbsp;
             <a href="http://ufc.br">Universidade Federal do Ceará</a>
             .
-            I am a Brazilian Portuguese teacher, translator and write.
+            I am a Brazilian Portuguese teacher, translator and writer.
             I wrote the poetry books
             &nbsp;
             <a href="http://www.literatsi.com.br/noticia/lancamento-do-livro-partida-de-nao-dizeres-de-vitoria-regia/">Partidas de Não Dizeres (2015)</a>
